@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class uri1003 {
 
 	public static void main(String[] args) {
-		
-		
+
 		Scanner sc = new Scanner(System.in);
 
 		int a;
@@ -13,7 +12,7 @@ public class uri1003 {
 
 		System.out.print("Enter first number:");
 		a = sc.nextInt();
-		
+
 		System.out.print("Enter second number:");
 		b = sc.nextInt();
 		sum = a + b;
@@ -21,5 +20,5 @@ public class uri1003 {
 
 		sc.close();
 
-		}
+	}
 }
